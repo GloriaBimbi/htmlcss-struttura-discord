@@ -11,6 +11,19 @@
   --border: 2px dashed black;
 }
 
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.one-rec {
+  /*DEBUG*/
+  height: var(--square-space);
+  flex-grow: 1;
+  border: var(--border);
+}
+
 /*HEADER*/
 header {
   display: flex;
@@ -51,9 +64,6 @@ header {
 
 /*SECTION1*/
 .section1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 0 300px;
   /*DEBUG*/
   background-color: rgb(0 0 139);
@@ -61,19 +71,15 @@ header {
 }
 
 .rec-sec-1 {
-  /*DEBUG*/
-  height: var(--square-space);
-  flex-grow: 1;
   background-color: rgb(238 130 238);
-  border: var(--border);
 }
 
 /*SECTION2 e SECTION4*/
 .two-rec {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding: var(--side-padding);
+  /*DEBUG*/
+  background-color: rgb(0 0 139);
+  height: var(--main-space);
   /*DEBUG*/
   background-color: white;
   height: var(--main-space);
@@ -100,9 +106,20 @@ header {
 
 /*SECTION3*/
 .section3 {
-  display: flex;
   flex-direction: row-reverse;
-
   /*DEBUG*/
   background-color: rgb(230 230 230);
+}
+
+/*SECTION5*/
+.section5 {
+  padding: var(--side-padding);
+  /*DEBUG*/
+  height: 600px;
+  background-color: rgb(211 211 211);
+}
+.rec-sec-5 {
+  /*DEBUG*/
+  height: 550px;
+  background-color: rgb(34 139 34);
 }
