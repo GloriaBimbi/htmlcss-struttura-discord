@@ -123,3 +123,30 @@ header {
   height: 550px;
   background-color: rgb(34 139 34);
 }
+
+/*FOOTER*/
+/*SECTION6*/
+.section6 {
+  padding: var(--side-padding);
+  padding-bottom: 20px;
+  /*DEBUG*/
+  height: 500px;
+  background-color: rgb(35 39 42);
+}
+
+.rec-sec-6 {
+  /*DEBUG*/
+  height: 450px;
+}
+
+.rec-sec-6-1 {
+  width: 20%;
+  /*DEBUG*/
+  background-color: rgb(240 128 128);
+}
+
+.rec-sec-6-2 {
+  /*DEBUG*/
+  border-color: white;
+  background-color: rgb(32 178 170);
+}
