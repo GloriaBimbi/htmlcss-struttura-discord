@@ -9,6 +9,7 @@
   --square-space: 300px;
   --side-padding: 0 200px;
   --border: 2px dashed black;
+  --colorwhite: white;
 }
 
 section {
@@ -29,9 +30,10 @@ header {
   display: flex;
   align-items: center;
   padding: var(--side-padding);
+  background-color: rgb(49 97 224);
   /*DEBUG*/
   height: 100px;
-  background-color: rgb(173 216 230);
+  /* background-color: rgb(49 97 224); */
 }
 
 .wrapper {
@@ -40,14 +42,14 @@ header {
   align-items: center;
   flex-grow: 1;
   /*DEBUG*/
-  background-color: rgb(218 165 32);
+  /* background-color: rgb(218 165 32); */
 }
 
 .wrapper > div {
   flex-grow: 1;
   /*DEBUG*/
-  border: var(--border);
-  background-color: rgb(218 165 32);
+  /* border: var(--border);
+  background-color: rgb(218 165 32); */
 }
 
 .logo-header {
@@ -60,6 +62,19 @@ header {
 
 .login-header {
   text-align: right;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--colorwhite);
+  padding: 15px;
+}
+
+.login-button {
+  border-radius: 3rem;
+  background-color: white;
+  padding: 5px 10px;
+  border: 0;
 }
 
 /*SECTION1*/
