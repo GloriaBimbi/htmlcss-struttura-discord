@@ -69,7 +69,7 @@ header {
 }
 
 /*SECTION2*/
-.section2 {
+.two-rec {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -96,4 +96,13 @@ header {
 .rec-sec-2-2 {
   /*DEBUG*/
   background-color: rgb(255 192 203);
+}
+
+/*SECTION3*/
+.section3 {
+  display: flex;
+  flex-direction: row-reverse;
+
+  /*DEBUG*/
+  background-color: rgb(230 230 230);
 }
