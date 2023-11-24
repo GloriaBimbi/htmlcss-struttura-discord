@@ -5,7 +5,7 @@
 }
 
 :root {
-  --main-space: 350px;
+  --main-space: 400px;
   --square-space: 300px;
   --side-padding: 0 200px;
   --border: 2px dashed black;
@@ -30,7 +30,7 @@ header {
   display: flex;
   align-items: center;
   padding: var(--side-padding);
-  background-color: rgb(49 97 224);
+  background-color: rgb(37 94 233);
   /*DEBUG*/
   height: 100px;
   /* background-color: rgb(49 97 224); */
@@ -70,23 +70,39 @@ header {
   padding: 15px;
 }
 
-.login-button {
+button {
   border-radius: 3rem;
   background-color: white;
-  padding: 5px 10px;
+  padding: 10px 15px;
   border: 0;
 }
 
 /*SECTION1*/
 .section1 {
   padding: 0 300px;
+  background-image: url("../img/jumbo.png");
+  background-size: cover;
+  color: var(--colorwhite);
+  text-align: center;
   /*DEBUG*/
-  background-color: rgb(0 0 139);
+  /* background-color: rgb(0 0 139); */
   height: var(--main-space);
 }
 
-.rec-sec-1 {
-  background-color: rgb(238 130 238);
+.title-section1 {
+  font-size: 50px;
+  padding: 20px;
+}
+
+.subtitle {
+  line-height: 25px;
+  margin-bottom: 15px;
+}
+
+.open-button {
+  background-color: black;
+  color: var(--colorwhite);
+  margin-left: 20px;
 }
 
 /*SECTION2 e SECTION4*/
