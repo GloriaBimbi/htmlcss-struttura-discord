@@ -150,3 +150,29 @@ header {
   border-color: white;
   background-color: rgb(32 178 170);
 }
+
+/*FOOTER-BOTTOM*/
+.footer-bottom {
+  border-top: 1px solid white;
+  padding: var(--side-padding);
+  /*DEBUG*/
+  height: 150px;
+  background-color: rgb(35 39 42);
+}
+
+.foot-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+  /*DEBUG*/
+  height: 75px;
+  background-color: rgb(127 255 212);
+}
+
+.foot-img {
+  padding: 5px;
+  /*DEBUG*/
+  background-color: rgb(255 182 193);
+  border: var(--border);
+}
