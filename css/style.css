@@ -1,0 +1,43 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*HEADER*/
+header {
+  display: flex;
+  align-items: center;
+  padding: 15px 200px;
+  /*DEBUG*/
+  min-height: 100px;
+  background-color: rgb(173 216 230);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  /*DEBUG*/
+  background-color: rgb(218 165 32);
+}
+
+.wrapper > div {
+  flex-grow: 1;
+  /*DEBUG*/
+  border: 2px dashed black;
+  background-color: rgb(218 165 32);
+}
+
+.logo-header {
+  text-align: left;
+}
+
+.link-header {
+  text-align: center;
+}
+
+.login-header {
+  text-align: right;
+}
